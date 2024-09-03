@@ -27,7 +27,7 @@ async function fetchImages() {
   try {
     const response = await axios.get('https://pixabay.com/api/', {
       params: {
-        key: '45702092-33b8a91f47742b78dee2b8364', //inlocuieste aici cu key al tau
+        key: '45702092-33b8a91f47742b78dee2b8364', 
         q: query,
         image_type: 'photo',
         orientation: 'horizontal',
